@@ -1,9 +1,13 @@
 body {
 background-image: url(blocograma.jfif);
+background-size: 50%;
+background-repeat:repeat-x;
+background-attachment: fixed;
 }
 
 button {
-
+    background-color: chartreuse;
+    font-size: 25px;
 }
 
 .grama {

@@ -1,2 +1,5 @@
-# portifolio2
-portifolio original
+tiviades rstantees:
+
+botaõ kwaii
+cluladora de nota
+hllo world
