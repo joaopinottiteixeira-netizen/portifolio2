@@ -1,8 +1,8 @@
 body {
-background-image: url(blocograma.jfif);
-background-size: 50%;
-background-repeat:repeat-x;
-background-attachment: fixed;
+    background-image: url(blocograma.jfif);
+    background-size: 50%;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
 }
 
 button {
@@ -11,9 +11,11 @@ button {
 }
 
 .grama {
-
 }
 
 .tera {
-
 }
+
+p :hover
+//prismIKI code/?
+efeitos de pASSAR O MAUSE EM CSS
