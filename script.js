@@ -1,13 +1,29 @@
-  
-function calcular() {
-  nota1trim = Number(prompt("digita a notado primeiro triestre"));
-  nota2trim = Number(prompt("digita nota do segundo trimestre:"));
+function aleatorio() {
+    let min = 1;
+    let max = 20;
+    let dif = max - min;
+    let aleatorio = Math.random();
+    let num = min + Math.trunc(dif * aleatorio);
 
-   resultado = 180 - (nota1trim + nota2trim);
+    
+    if (num === 17) {
+        let mostrar = document.getElementById('resultado');
+        mostrar.innerHTML = `<p>${num} minecraft foi feito 17 anos atra pensar que o tempo voa tão rapido  </p>`;
+    }
 
-  if(resultado <= 0){
-        alert("Parabéns!você esta aprovado.");
-    } else {
-        alert("você ainda precisa tirar " + resultado + " no terceiro trim");
-    }   
+     if (num === 18) {
+        let mostrar = document.getElementById('resultado');
+        mostrar.innerHTML = `<p>${num} 18 anos ja ta na idade pra jogar o mod da jenny </p>`;
+
+    }    
+    
+    else{
+        let mostrar = document.getElementById('resultado');
+        mostrar.innerHTML = `<p>acabei de pensar o numero ${num}.</p>`;
+        
+
+}
+
+
+
 }
